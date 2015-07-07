@@ -1,4 +1,6 @@
 <?php
+//参考文章：http://www.cnblogs.com/thinksasa/archive/2013/02/26/2934206.html
+
 
 //获取的就是SOL_TCP的值，也可以直接指定
 $protocol = getprotobyname("tcp");
