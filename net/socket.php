@@ -10,11 +10,11 @@ if(! socket_connect($socket, "192.168.1.104",8000) ){
 }
 
 
-set_time_limit(0);
+set_time_limit(0); //  让脚本运行时间没有限制
 
 while(1){
 	socket_write($socket, "123");
-	sleep(3);
+	sleep(3);// 休眠3s
 }
 
 // while(($buffer = socket_read($socket, 1024))){
