@@ -1,3 +1,4 @@
+<?php
 $fileArr = ["dig.html","kernel_enter.html","kmod.htm","lecture1.pdf","lecture2.pdf","lecture3.pdf",
 		"lecture4.pdf","lecture5.pdf","lecture6.pdf","lecture7.pdf","lecture8.pdf","logic.html",
 		"mkkernel.htm","mkmod.htm","openfree.html","osmodule1.htm","osmodule2.htm","osmodule3.htm",
@@ -14,3 +15,4 @@ for($i=0;$i<count($fileArr);$i++){
 	$filepath = "G:/OperatingSystem/chenli/".$i.$fileArr[$i] ; 
 	file_put_contents( $filepath , $data );
 }
+?>
